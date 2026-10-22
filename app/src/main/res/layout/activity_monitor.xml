@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical" android:padding="24dp">
+
+    <TextView android:id="@+id/tvTemp" android:layout_width="wrap_content"
+        android:layout_height="wrap_content" android:text="-- °C" android:textSize="48sp" />
+
+    <TextView android:id="@+id/tvPuerta" android:layout_width="wrap_content"
+        android:layout_height="wrap_content" android:text="Esperando datos..."
+        android:textSize="20sp" />
+
+    <TextView android:id="@+id/tvHora" android:layout_width="wrap_content"
+        android:layout_height="wrap_content" android:layout_marginBottom="12dp" />
+
+    <TextView android:id="@+id/tvAlerta" android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:padding="16dp"
+        android:textColor="#FFFFFF" android:textStyle="bold" android:text="Sin datos" />
+
+    <EditText android:id="@+id/etUmbral" android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:hint="Umbral de temperatura (°C)"
+        android:text="30" android:inputType="numberDecimal" />
+
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:text="Historial (últimas 15 lecturas)" android:textStyle="bold"
+        android:layout_marginTop="12dp" />
+
+    <ListView android:id="@+id/lista" android:layout_width="match_parent"
+        android:layout_height="0dp" android:layout_weight="1" />
+</LinearLayout>

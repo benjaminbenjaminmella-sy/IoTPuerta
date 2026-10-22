@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "977547766606",
+    "project_id": "proyectoarduino-5ac0e",
+    "storage_bucket": "proyectoarduino-5ac0e.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:977547766606:android:3eb7b230c590d9fb60cc1f",
+        "android_client_info": {
+          "package_name": "com.example.iotpuerta"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB44xtl7HpXfilpyaP1xU7ZL_qG6cAHmiM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

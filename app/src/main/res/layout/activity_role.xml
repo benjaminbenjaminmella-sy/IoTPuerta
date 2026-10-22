@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical" android:gravity="center" android:padding="24dp">
+
+    <TextView android:id="@+id/tvUsuario" android:layout_width="wrap_content"
+        android:layout_height="wrap_content" android:layout_marginBottom="24dp" />
+
+    <Button android:id="@+id/btnSensor" android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:text="Modo NODO SENSOR (simulado)" />
+
+    <Button android:id="@+id/btnMonitor" android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:text="Modo MONITOR" />
+
+    <Button android:id="@+id/btnLogout" android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:text="Cerrar sesión"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+        android:layout_marginTop="24dp" />
+</LinearLayout>
